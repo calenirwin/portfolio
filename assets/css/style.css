@@ -1,0 +1,108 @@
+body {
+  background-color: #f5f5f5;
+  font-family: 'Didact Gothic';
+  font-size: 16px;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+}
+
+.first-letter {
+  font-family: 'Ultra';
+  font-size: 36px;
+}
+
+.section-title {
+  color: #35281e;
+  font-size: 24px;
+  font-family: 'Didact Gothic';
+}
+
+.section-subtitle {
+  color: #85461e;
+  font-size: 20px;
+  font-family: 'Didact Gothic';
+  width: -webkit-fit-content;
+  height: -webkit-fit-content;
+  width: -moz-fit-content;
+  height: -moz-fit-content;
+  border-bottom: 1px solid #85461e;
+}
+
+.section-body {
+  display: flex;
+}
+
+.section-subsection {
+  flex-direction: row;
+  padding-right: 32px;
+}
+
+.header .socials ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.header .socials ul li {
+  float: left;
+  color: #35281e;
+}
+
+.header .socials ul li a {
+  display: block;
+  color:#35281e;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.header .socials ul li a:hover {
+  color: #85461e;
+}
+
+.header-inner {
+  width: 12%; 
+  height: 1px;
+  margin: 0px auto;
+  border-bottom: 1px solid #35281e;
+}
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  width: 64%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 12px;
+}
+
+.content-item {
+  padding-top: 12px;
+  padding-left: 48px;
+}
+
+.content-item ul{
+  list-style-type: square;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 920px) {
+  .content {
+    width: 82%;
+  }
+  .section-title {
+    margin: 0 auto;
+  }
+}
